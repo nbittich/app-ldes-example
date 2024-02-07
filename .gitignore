@@ -1,0 +1,8 @@
+# Virtuoso files /data/db
+/data/db/*
+!/data/db/toLoad
+!/data/db/toLoad/*
+
+/data/ldes-feed/*
+docker-compose.override.yml
+.env

@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  producer:
+    ports:
+      - 80:80
+  triplestore:
+    ports:
+      - "8890:8890"
+    restart: "no"
