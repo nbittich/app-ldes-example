@@ -40,3 +40,7 @@ curl -v   POST http://localhost/example-stream?resource=https://example.org/pers
 - Wait for a minute or so
 
 - Execute the same query as above, you should get Bob Dylan now
+
+## Troubleshoot
+
+You may need to restart the consumer, if there's no data it seems it can get stuck sometimes.
